@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+  background-color: #d4cea7;
+}
+
+/* formatting classes */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-color: #f96115;
+  padding: 1.5em 0;
+}
+
+footer {
+  margin-top: 3em;
+  background-color: #252c22;
+  padding: 2em 0;
+}
+
+.navigation-lists {
+  display: flex;
+}
+
+.navigation-lists li {
+  margin-right: 1.5em;
+  font-size: 1.15rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.lists-section {
+  color: #fff;
+  margin: 3em 0;
+}
+
+.lists-section .col {
+  background-color: #005979;
+  padding: 1.5em 1em;
+  width: 30%;
+  height: 600px;
+  font-size: 1.25rem;
+  box-shadow: 10px 10px 20px #323232;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 2rem;
+}
+
+.col ul {
+  margin-left: 2rem;
+}
+
+.disc-type {
+  list-style-type: disc;
+}
+
+.square-type {
+  list-style-type: square;
+}
+
+.tick-type {
+  list-style-image: url(../tick-and-circle.png);
+}
+
+.lists-section .col li {
+  margin: 1em 0;
+}
+
+h2 {
+  font-size: 2rem;
+  word-spacing: 8px;
+  margin: 0.25em 0;
+}
+
+p {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 1em 0;
+}
